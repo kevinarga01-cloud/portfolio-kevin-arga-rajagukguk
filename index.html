@@ -1,0 +1,184 @@
+<!--
+========================================
+Judul File : index.html
+Deskripsi  : Halaman utama Portfolio Mahasiswa Geofisika
+========================================
+-->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Kevin Arga Rajagukguk</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>GeoPortfolio</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== MAIN ===== -->
+    <main>
+
+        <!-- ===== HERO SECTION ===== -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Lulusan Geofisika</h2>
+                <p>Mengolah data kebumian untuk memahami bumi dan masa depan energi.</p>
+
+                <!-- Tombol langsung ke email -->
+                <a 
+                    href="mailto:kevinarga01@gmail.com?subject=Kontak dari Website Portfolio"
+                    class="btn-email">
+                    Hubungi Saya
+                </a>
+            </div>
+        </section>
+
+        <!-- ===== ABOUT ===== -->
+        <section id="about" class="about">
+            <h2>Tentang Saya</h2>
+            <div class="about-content">
+                <p>
+                    Saya adalah Lulusan Geofisika yang tertarik pada eksplorasi,
+                    analisis data kebumian, dan riset ilmiah berbasis data.
+                </p>
+            </div>
+        </section>
+
+        <!-- ===== SERVICES ===== -->
+        <section id="services" class="services">
+            <h2>Keahlian</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <h3>Analisis Data Geofisika</h3>
+                    <p>Seismik, gravitasi, resistivity, dan magnetik.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Pengolahan Data</h3>
+                    <p>Petrel, Python, Excel, dan analisis numerik.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SERVICES / PROJECT SECTION ===== -->
+<section id="services" class="services">
+    <h2>Project & Pengalaman</h2>
+
+    <div class="services-container">
+
+        <div class="service-card">
+            <h3>Tugas Akhir – PT Pertamina EP</h3>
+            <p>
+                Project Tugas Akhir di bidang Geofisika terkait analisis data bawah permukaan.
+            </p>
+            <a 
+                href="https://drive.google.com/file/d/18ZY7ErKEte3sV8WC--qmNBsekfkPkNyi/view?usp=sharing"
+                target="_blank"
+                class="project-link">
+                Lihat Project
+            </a>
+        </div>
+
+        <div class="service-card">
+            <h3>Project Geofisika – Medco EP Indonesia</h3>
+            <p>
+                Kegiatan analisis dan interpretasi data geofisika dalam lingkungan industri migas.
+            </p>
+            <a 
+                href="https://drive.google.com/file/d/1JTkYsbvlqTjx_gm0NEv2FK8i5ebjTQ5d/view?usp=sharing"
+                target="_blank"
+                class="project-link">
+                Lihat Project
+            </a>
+        </div>
+
+        <div class="service-card">
+            <h3>Eksplorasi Geotermal – PT Newquest Geotechnology</h3>
+            <p>
+                Studi eksplorasi geotermal menggunakan metode Magnetotellurik (MT).
+            </p>
+            <a 
+                href="https://drive.google.com/file/d/11CwHJPms58y4R3yCLDwtlqQjz8m39e80/view?usp=sharing"
+                target="_blank"
+                class="project-link">
+                Lihat Project
+            </a>
+        </div>
+
+        <div class="service-card">
+            <h3>Website Desa Botubarani – PT Amati Karya Indonesia</h3>
+            <p>
+                Pembuatan website informasi untuk memperkenalkan terumbu karang
+                dan mendukung UMKM lokal Desa Botubarani.
+            </p>
+            <a 
+                href="https://drive.google.com/file/d/1HtSSWm01l6mI3vaOUflxkatUUkvxUoUJ/view?usp=sharing"
+                target="_blank"
+                class="project-link">
+                Lihat Project
+            </a>
+        </div>
+
+        <div class="service-card">
+            <h3>Solusi Lingkungan – PT Amati Karya Indonesia</h3>
+            <p>
+                Inovasi pengelolaan limbah plastik dan perlindungan garis pantai
+                menggunakan tetrapod ramah lingkungan.
+            </p>
+            <a 
+                href="https://drive.google.com/file/d/1y9-lLiyEJ4nYG5plUcQpuwXxMV8sBAti/view?usp=sharing"
+                target="_blank"
+                class="project-link">
+                Lihat Project
+            </a>
+        </div>
+
+    </div>
+</section>
+
+
+        <!-- ===== CONTACT ===== -->
+        <section id="contact" class="contact">
+            <h2>Kirim Pesan</h2>
+
+            <!-- Form kirim ke email -->
+            <form
+                action="mailto:kevinarga01@gmail.com"
+                method="post"
+                enctype="text/plain"
+            >
+                <input type="text" name="Nama" placeholder="Nama" required>
+                <input type="email" name="Email" placeholder="Email" required>
+                <textarea name="Pesan" placeholder="Pesan" required></textarea>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>&copy; <span id="year"></span> Portfolio  Kevin Arga Rajagukguk</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
